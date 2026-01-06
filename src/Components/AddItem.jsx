@@ -12,17 +12,17 @@ const AddItem = () => {
 
       <button
         onClick={() => navigate(-1)}
-        className="flex items-center gap-2 ml-16 mt-6 text-gray-700 font-bold font-Source"
+        className="flex items-center gap-2 lg:ml-16 mt-6 text-gray-700 font-bold font-Source"
       >
         <ArrowLeft className="w-5 h-5" />
         Back
       </button>
 
-      <div className="flex mb-10">
-        <div className="w-1/2 mt-6">
+      <div className="flex flex-col lg:flex-row min-h-[70vh] mb-10 lg:mb-20 items-center">
+        <div className="w-full lg:w-1/2 px-6 md:px-16 mt-10 lg:mt-0 text-center lg:text-left">
           <p className="font-bold px-14 font-Source">Add images</p>
 
-          <div className="mt-4 rounded-2xl bg-gray-100 w-[85%] h-80 ml-14 flex items-center justify-center">
+          <div className="mt-4 rounded-2xl bg-gray-100 w-[85%] h-80 ml:auto lg:ml-14 flex items-center justify-center">
             <label className="flex flex-col items-center gap-2 cursor-pointer text-gray-600 hover:text-gray-800">
               <Camera className="w-10 h-10" />
               <span className="text-sm font-medium font-Source">

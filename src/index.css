@@ -4,3 +4,8 @@
 @theme {
   --font-family-sans: 'Source Sans 3', sans-serif;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

@@ -5,7 +5,7 @@ const Login = () => {
   const navigate = useNavigate();
   return (
     <div className="flex h-screen">
-      <div className="basis-full ">
+      <div className="hidden lg:flex lg:basis-full">
         <img
           src="/images/LoginPic.png"
           alt="Login"

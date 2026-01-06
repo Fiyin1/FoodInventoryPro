@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <>
       <Navbar />
-      <div className="flex mb-10">
+      <div className="flex flex-col lg:flex-row min-h-[70vh] mb-10 lg:mb-20 text-left items-center">
         <div className="w-1/2 flex items-center justify-center mt-20">
           <img
             src="/images/ContactUs.png"
@@ -14,8 +14,8 @@ const ContactUs = () => {
           />
         </div>
         <div className="w-1/2 mt-4">
-          <span className="text-4xl font-bold font-Source">Contact Us</span>
-          <p className="font-Source mt-10">
+          <span className="text-xl lg:text-4xl font-bold font-Source">Contact Us</span>
+          <p className="font-Source mt-10 text-sm lg:text-xl">
             Get in touch for inventory managment solutions
           </p>
           <form action="">
@@ -41,7 +41,7 @@ const ContactUs = () => {
               />
             </div>
             <div className="flex mt-6">
-              <button className="bg-red-600 ml-auto mr-[20%] font-Source text-white rounded-2xl px-10 py-2 w-[20%]">
+              <button className="bg-red-600 ml-auto mr-[20%] text-center font-Source text-white rounded-2xl px-6 lg:px-10 py-2 w-[40%] lg:w-[20%]">
                 Send
               </button>
             </div>
